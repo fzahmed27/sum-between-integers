@@ -2,5 +2,6 @@ funtion Getsum(a,b)
 {
  var min = Math.min(a,b);
  var max = Math.max(a,b);
- return ((max -min) + 1 * (max- min))/2
+ var no_of_terms = (max - min) + 1;
+ return (no_of_terms* (max- min))/2;
 }
